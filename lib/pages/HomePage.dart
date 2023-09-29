@@ -1,7 +1,6 @@
 import 'package:bkn_cashbook_app/constant/route_constants.dart';
 import 'package:bkn_cashbook_app/helper/dbhelper.dart';
 import 'package:flutter/material.dart';
-import 'package:fl_chart/fl_chart.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -59,11 +58,11 @@ class _HomePageState extends State<HomePage> {
             SizedBox(
               height: 20,
             ),
-            Text("Total Pengeluaran: \Rp $totalExpense",
-              
+            Text(
+              "Total Pengeluaran: \Rp $totalExpense",
             ),
-            Text("Total Pemasukan: \Rp $totalIncome",
-              
+            Text(
+              "Total Pemasukan: \Rp $totalIncome",
             ),
             SizedBox(
               height: 20,
